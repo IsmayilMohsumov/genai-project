@@ -8,14 +8,14 @@ client.api_key = key
 
 # function to write file  
 def write_content_to_file(content, file_path):
-    file_path_root = 'C:\\Users\\mohsu\\Downloads\\GEN AI\\Pandora\\genai-pandora\\dataset\\' + file_path
+    file_path_root = 'C:\\Users\\mohsu\\Downloads\\GEN AI\\Pandora\\genai-project\\dataset\\' + file_path
     with open(file_path_root, 'w') as file:
         file.write(content)
     print(f'The content has been successfully written to {file_path_root}')
 
 # function to read from file
 def read_from_file(file_path):
-    file_path_root = 'C:\\Users\\mohsu\\Downloads\\GEN AI\\Pandora\\genai-pandora\\dataset\\' + file_path
+    file_path_root = 'C:\\Users\\mohsu\\Downloads\\GEN AI\\Pandora\\genai-project\\dataset\\' + file_path
     with open(file_path_root, 'r') as file:
         file_content = file.read()
     return file_content
