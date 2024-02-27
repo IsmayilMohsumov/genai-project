@@ -1,0 +1,38 @@
+**Functional Specification: Enter G/L Account Posting: Header Data**
+
+1. **Purpose**: The purpose of this form is to allow users to enter General Ledger (G/L) Account Postings in the Header Data section of the SAP application.
+
+2. **Form Components**:
+    - **Form Title**: The form title should be displayed as "Enter G/L Account Posting: Header Data" at the top of the interface.
+    - **Checkboxes**:
+        - "Held Document": Users can check this box if the document is on hold.
+        - "Account Assignment Model": Users can check this box to use a predefined account assignment model.
+        - "Fast Entry": Users can check this box to enable fast data entry mode.
+        - "Post with Reference": Users can check this box to post the document with reference to another document.
+        - "Editing Options": This checkbox should be pre-checked to indicate editing options are available.
+    - **Header Data Fields**:
+        - **Document Date**: A calendar input field for users to enter the document date. It should allow selecting a date.
+        - **Posting Date**: A calendar input field for users to enter the posting date. It should be editable.
+        - **Document Number**: An input field for users to enter the document number.
+        - **Reference**: An input field for users to enter any reference related to the document.
+        - **Doc.Header Text**: A field for users to input text related to the document header.
+        - **Trading Part.BA**: A field for users to enter trading partner/business partner information.
+    - **Additional Fields**:
+        - **Type**: A field prefilled with the value "SA" for the transaction type.
+        - **Period**: A dropdown or editable input field for users to select or enter the period number.
+
+3. **Functionality**:
+    - Users should be able to input relevant data in the provided fields.
+    - Checkboxes should enable corresponding functionalities when checked.
+    - Data entry fields should allow for text entry, date selection, and number input as appropriate.
+    - The form should allow for saving and posting the entered data in the G/L Account Posting.
+
+4. **User Interface**:
+    - The interface should be user-friendly with clear labels for each field.
+    - Error handling should be implemented to guide users in case of incorrect data entry.
+    - The layout should be intuitive, guiding users through the process of entering G/L Account Posting data efficiently.
+
+5. **Integration**:
+    - The entered data should integrate seamlessly with the SAP G/L Account Posting functionality for further processing and reporting.
+
+This functional specification outlines the key components and functionalities of the "Enter G/L Account Posting: Header Data" form in the SAP application, providing a guideline for development and implementation.

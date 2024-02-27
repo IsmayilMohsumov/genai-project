@@ -1,0 +1,55 @@
+### Test Cases for "Enter G/L Account Posting: Header Data"
+
+1. **Test Case ID**: GL_Header_001
+   **Description**: Verify that the form title is displayed as "Enter G/L Account Posting: Header Data" at the top of the interface.
+   **Test Steps**:
+   1. Open the G/L Account Posting form.
+   2. Check if the title "Enter G/L Account Posting: Header Data" is displayed at the top of the interface.
+   **Expected Result**: The form title should match the expected value.
+
+2. **Test Case ID**: GL_Header_002
+   **Description**: Verify that the checkboxes "Held Document", "Account Assignment Model", "Fast Entry", "Post with Reference", and "Editing Options" are present and functional.
+   **Test Steps**:
+   1. Open the G/L Account Posting form.
+   2. Check each checkbox individually.
+   3. Verify that corresponding functionalities are enabled/disabled upon checking/unchecking the checkboxes.
+   **Expected Result**: Each checkbox should work as expected, enabling or disabling the respective functionality.
+
+3. **Test Case ID**: GL_Header_003
+   **Description**: Verify the functionality of data entry fields - Document Date, Posting Date, Document Number, Reference, Doc.Header Text, and Trading Part.BA.
+   **Test Steps**:
+   1. Open the G/L Account Posting form.
+   2. Enter data in each field.
+   **Expected Result**: Data should be entered correctly in each field without any issues.
+
+4. **Test Case ID**: GL_Header_004
+   **Description**: Verify that the Additional Fields - Type and Period, are prefilled correctly and editable as required.
+   **Test Steps**:
+   1. Open the G/L Account Posting form.
+   2. Verify that the Type field is prefilled with "SA" and the Period field is editable.
+   **Expected Result**: Type field should show "SA" and the Period field should be editable for user input.
+
+5. **Test Case ID**: GL_Header_005
+   **Description**: Validate the error handling mechanism for incorrect data entry.
+   **Test Steps**:
+   1. Enter invalid data in any field.
+   2. Try to save or post the data.
+   **Expected Result**: An appropriate error message should be displayed guiding the user on the correct data format.
+
+6. **Test Case ID**: GL_Header_006
+   **Description**: Verify that the entered data can be saved and posted successfully in the G/L Account Posting.
+   **Test Steps**:
+   1. Enter valid data in all required fields.
+   2. Save and post the data.
+   3. Verify in the G/L Account Posting functionality if the data is successfully saved/posted.
+   **Expected Result**: The entered data should be successfully saved and posted without any errors.
+
+7. **Test Case ID**: GL_Header_007
+   **Description**: Check the integration of the entered data with the SAP G/L Account Posting functionality.
+   **Test Steps**:
+   1. Enter valid data in all required fields.
+   2. Save and post the data.
+   3. Verify if the posted data can be further processed and reported in the SAP G/L Account Posting.
+   **Expected Result**: The entered data should integrate seamlessly with the SAP G/L Account Posting for further processing and reporting.
+
+These test cases cover the functional testing aspects for the "Enter G/L Account Posting: Header Data" form in SAP application, ensuring the form's components and functionalities work as intended.
